@@ -3059,12 +3059,20 @@ h3.project-heading span {
 }
 .resume-left {
     margin: 50px 0;
-    text-align: left;
+    text-align: center;
 }
 .resume-right {
-        margin: 50px 0;
-        text-align: right;
+    margin: 50px 0;
+    text-align: center;
 }
+
+.resume-content-right {
+    text-align: left;
+    margin-left: 40px;
+    /* Assure un bon alignement */
+}
+
+
 .homepage-2 h2.resume-heading {
     color: #3e4455;
 }
