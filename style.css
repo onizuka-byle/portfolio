@@ -3061,6 +3061,10 @@ h3.project-heading span {
     margin: 50px 0;
     text-align: center;
 }
+.resume-right {
+        margin: 50px 0;
+        text-align: center;
+}
 .homepage-2 h2.resume-heading {
     color: #3e4455;
 }
