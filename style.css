@@ -177,7 +177,7 @@ div#sticker-sticky-wrapper {
 }
 div#sticker-sticky-wrapper.sticky-wrapper.is-sticky .header-top {
     padding: 1% 3% 1% 4%;
-    background: #456ee0;
+    background: #1d2027;
 }
 .homepage-3 .container-fulid {
     padding: 2% 5% 0% 4%;
@@ -292,7 +292,7 @@ nav {
     display: table;
     color: #3e4455;
     opacity: .95;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+    
     transition: all .9s ease-in-out;
 }
 .dark nav {
@@ -436,7 +436,7 @@ nav ul li a:hover {
 }
 .contact-page .dropdown:hover>.dropdown-nav {
     opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  
     visibility: visible;
     top: 2px;
     position: relative;
