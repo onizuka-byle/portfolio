@@ -3059,11 +3059,11 @@ h3.project-heading span {
 }
 .resume-left {
     margin: 50px 0;
-    text-align: center;
+    text-align: left;
 }
 .resume-right {
         margin: 50px 0;
-        text-align: center;
+        text-align: right;
 }
 .homepage-2 h2.resume-heading {
     color: #3e4455;
