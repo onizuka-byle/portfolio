@@ -3178,6 +3178,22 @@ span.resume-date {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+.resume-img {
+    width: 100%;
+    /* Ajuste selon ton besoin */
+    max-width: 400px;
+    /* Taille maximale pour éviter qu'elle soit trop grande */
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+    /* Coins arrondis pour un meilleur rendu */
+    transition: transform 0.3s ease-in-out;
+}
+
+.resume-img:hover {
+    transform: scale(1.05);
+    /* Effet de zoom au survol */
+}
 /*================================================ 
 15. TESTIMONIAL SECTION STYLE
 ================================================ */
