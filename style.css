@@ -3179,9 +3179,9 @@ span.resume-date {
     transition: all .3s ease-in-out;
 }
 .resume-img {
-    width: 70%;
+    width: 100%;
     /* Ajuste selon ton besoin */
-    max-width: 200px;
+    max-width: 250px;
     /* Taille maximale pour éviter qu'elle soit trop grande */
     display: block;
     margin-top: 10px;
