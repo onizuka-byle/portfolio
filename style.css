@@ -1805,7 +1805,7 @@ a.comman-btn.about-me-btn-2:hover i.fa:after {
 8. SKILL SECTION STYLE
 ================================================ */
 
-h2.skill-heading {
+/*h2.skill-heading {
     position: absolute;
     padding-left: 50px;
     z-index: 1;
@@ -1907,6 +1907,99 @@ h2.skill-heading:before {
     font-weight: 500;
     letter-spacing: 2px;
     font-family: 'Montserrat', sans-serif;
+}
+    .skill-area {
+    padding: 50px 0;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #222;
+}
+
+.skill-box {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.skill-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 3px solid #ffcc74;
+    padding-bottom: 5px;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-list li {
+    font-size: 16px;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.skill-list li:last-child {
+    border-bottom: none;
+}
+*/
+.skill-area {
+    padding: 50px 0;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #222;
+}
+
+.skill-box {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.skill-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 3px solid #ffcc74;
+    padding-bottom: 5px;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-list li {
+    font-size: 16px;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.skill-list li:last-child {
+    border-bottom: none;
 }
 /*================================================ 
 9 SECTION TITLE
@@ -3179,7 +3272,7 @@ span.resume-date {
     transition: all .3s ease-in-out;
 }
 .resume-img {
-    width: 100%;
+    width: 70%;
     /* Ajuste selon ton besoin */
     max-width: 200px;
     /* Taille maximale pour éviter qu'elle soit trop grande */
